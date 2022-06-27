@@ -16,7 +16,7 @@ export default function ProductCard({ title = '', image = '', onClick }) {
         <Card.Body>
           <Card.Subtitle>{title}</Card.Subtitle>
           <Card.Text></Card.Text>
-          <Button variant="primary" onClick={onClick}>
+          <Button variant="dark" onClick={onClick}>
             Go to detail
           </Button>
         </Card.Body>
